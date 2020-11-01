@@ -28,5 +28,12 @@ class GameState
     
     @[JSON::Field(key: "game_map")]
     property game_map : Hash(String, Array(String))              
+    
+    def  make_players() : Array(Player)
+        players.map{|p| Player.new(p)}            
+    end
+    
+    
 end
+
 
