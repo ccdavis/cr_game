@@ -4,6 +4,7 @@ require "./piece"
 enum TerrainType
     Land
     Sea
+    Unknown
 end
 
 class Location
@@ -17,7 +18,7 @@ class Location
     getter terrain : TerrainType
     getter next_to : Array(Location) = [] of Location
         
-    def initialize(@name : String, @owner : Player, @terrain : TerrainType, @ipc : Int32, @next_to : Array(Location))        
+    def initialize(@name : String, @owner : Player, @terrain : TerrainType, @ipc : Int32)
     end
     
     def change_owner(owner : Player)
@@ -27,6 +28,10 @@ class Location
     
     def add_adjacent(location : Location)
         @next_to << location
+    end
+    
+    def add_adjacent(adj : Array(Location))
+        @next_to += adj
     end
     
     
