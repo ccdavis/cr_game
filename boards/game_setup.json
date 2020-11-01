@@ -1,0 +1,2013 @@
+{
+    "containers": {
+        "carrier": {
+            "bomber": 4,
+            "fighter": 4
+        },
+        "transport": {
+            "armor": 4,
+            "infantry": 4
+        }
+    },
+    "game_map": {
+        "Afghanistan": [
+            "Kazakstan",
+            "Sinkiang Western China",
+            "India",
+            "Iran"
+        ],
+        "Alaska": [
+            "Western Canada",
+            "Alaskan Pacific"
+        ],
+        "Alaskan Pacific": [
+            "Alaska",
+            "North Central Pacific",
+            "Canadian Pacific",
+            "North West Pacific",
+            "Midway Island sea"
+        ],
+        "Algeria": [
+            "Libya",
+            "French West Africa",
+            "French East Africa",
+            "Eastern Atlantic",
+            "Western Mediteranian"
+        ],
+        "Angola": [
+            "Kenya",
+            "Congo",
+            "South Africa",
+            "South West African Atlantic"
+        ],
+        "Antarctic Ocean": [
+            "Central south Atlantic",
+            "South West African Atlantic",
+            "South Argentinian Antarctic Ocean"
+        ],
+        "Antarctic Ocean southwest of Australia": [
+            "Southern Indian Ocean",
+            "South Australian Ocean",
+            "Eastern Indian Ocean"
+        ],
+        "Arabia": [
+            "Palestine",
+            "Iraq",
+            "Iran",
+            "Red Sea",
+            "Indian Ocean"
+        ],
+        "Argentina": [
+            "Brazil",
+            "Chile",
+            "South Argentinian Antarctic Ocean",
+            "Argentine Atlantic"
+        ],
+        "Argentine Atlantic": [
+            "Argentina",
+            "Central south Atlantic",
+            "South Argentinian Antarctic Ocean",
+            "East Brazil Atlantic"
+        ],
+        "Australia": [
+            "South Australian Ocean",
+            "Western Australian Ocean",
+            "East Australia Sea"
+        ],
+        "Baltic Sea": [
+            "Germany",
+            "Norway Finland",
+            "Karelia",
+            "Eastern Europe",
+            "North Sea"
+        ],
+        "Bay of Bengal": [
+            "Burma and South East Asia",
+            "Indian Ocean",
+            "East Indies Ocean"
+        ],
+        "Black Sea": [
+            "Eastern Europe",
+            "Ukraine",
+            "Caucases",
+            "Turkey",
+            "Eastern Mediteranian"
+        ],
+        "Borneo": [
+            "Borneo Sea"
+        ],
+        "Borneo Sea": [
+            "Borneo",
+            "Western Australian Ocean",
+            "East Indies Ocean",
+            "South China Sea",
+            "New Guinea Sea",
+            "Caroline Islands Sea",
+            "Philipines Sea"
+        ],
+        "Brazil": [
+            "Colombia",
+            "Venezuela",
+            "Peru",
+            "Argentina",
+            "East Brazil Atlantic",
+            "North Eastern Brazil Atlantic"
+        ],
+        "Britain": [
+            "North Sea"
+        ],
+        "Burma and South East Asia": [
+            "Sinkiang Western China",
+            "Kwantung Eastern China",
+            "Central China",
+            "India",
+            "Bay of Bengal",
+            "South China Sea"
+        ],
+        "Canadian Atlantic": [
+            "Eastern Canada",
+            "North Sea",
+            "Eastern Atlantic",
+            "North Central Atlantic",
+            "Eastern USA Atlantic"
+        ],
+        "Canadian Pacific": [
+            "Western Canada",
+            "Western US Pacific",
+            "Alaskan Pacific",
+            "Midway Island sea"
+        ],
+        "Caroline Islands": [
+            "Caroline Islands Sea"
+        ],
+        "Caroline Islands Sea": [
+            "Caroline Islands",
+            "Borneo Sea",
+            "New Guinea Sea",
+            "Solomon Island Sea",
+            "Wake Island Sea",
+            "Okinawa Sea",
+            "Philipines Sea"
+        ],
+        "Carribean Sea": [
+            "Central America",
+            "Venezuela",
+            "West Indies",
+            "North Central Atlantic",
+            "North Eastern Brazil Atlantic",
+            "Eastern USA Atlantic"
+        ],
+        "Caucases": [
+            "Karelia",
+            "Russia",
+            "Ukraine",
+            "Turkey",
+            "Iran",
+            "Black Sea"
+        ],
+        "Central America": [
+            "Mexico",
+            "Colombia",
+            "Carribean Sea",
+            "Mexican Pacific"
+        ],
+        "Central China": [
+            "Mongolia",
+            "Manchuria",
+            "Sinkiang Western China",
+            "Kwantung Eastern China",
+            "Burma and South East Asia"
+        ],
+        "Central Indian Ocean": [
+            "Madagascar",
+            "Western Indian Ocean",
+            "Southern Indian Ocean",
+            "North Central Indian Ocean",
+            "Eastern Indian Ocean"
+        ],
+        "Central Pacific": [
+            "Solomon Island Sea",
+            "South Pacific",
+            "Hawaian Sea",
+            "Mexican Pacific",
+            "South East Pacific"
+        ],
+        "Central south Atlantic": [
+            "South West African Atlantic",
+            "Southern West African Atlantic",
+            "Antarctic Ocean",
+            "Argentine Atlantic",
+            "East Brazil Atlantic"
+        ],
+        "Chile": [
+            "Peru",
+            "Argentina",
+            "South Argentinian Antarctic Ocean",
+            "South East Pacific"
+        ],
+        "Colombia": [
+            "Central America",
+            "Venezuela",
+            "Brazil",
+            "Peru",
+            "Mexican Pacific"
+        ],
+        "Congo": [
+            "Egypt",
+            "French East Africa",
+            "Kenya",
+            "Southern West African Atlantic",
+            "Angola"
+        ],
+        "East Australia Sea": [
+            "New Zealand Sea",
+            "Australia",
+            "South Australian Ocean",
+            "New Guinea Sea",
+            "Solomon Island Sea"
+        ],
+        "East Brazil Atlantic": [
+            "Brazil",
+            "Central south Atlantic",
+            "West African Atlantic",
+            "Southern West African Atlantic",
+            "Argentine Atlantic",
+            "North Eastern Brazil Atlantic"
+        ],
+        "East China Sea": [
+            "Kwantung Eastern China",
+            "South China Sea",
+            "Philipines Sea",
+            "Sea of Japan"
+        ],
+        "East Indies": [
+            "East Indies Ocean"
+        ],
+        "East Indies Ocean": [
+            "East Indies",
+            "Indian Ocean",
+            "North East Indian Ocean",
+            "Bay of Bengal",
+            "Western Australian Ocean",
+            "South China Sea",
+            "Borneo Sea"
+        ],
+        "Eastern Atlantic": [
+            "Western Europe",
+            "Spain",
+            "Algeria",
+            "North Sea",
+            "Western Mediteranian",
+            "North Central Atlantic",
+            "West African Atlantic",
+            "Canadian Atlantic"
+        ],
+        "Eastern Canada": [
+            "Western Canada",
+            "Eastern US",
+            "Canadian Atlantic"
+        ],
+        "Eastern Europe": [
+            "Germany",
+            "Karelia",
+            "Southern Europe",
+            "Ukraine",
+            "Baltic Sea",
+            "Black Sea"
+        ],
+        "Eastern Indian Ocean": [
+            "Central Indian Ocean",
+            "North East Indian Ocean",
+            "Antarctic Ocean southwest of Australia",
+            "Western Australian Ocean"
+        ],
+        "Eastern Mediteranian": [
+            "Southern Europe",
+            "Libya",
+            "Egypt",
+            "Turkey",
+            "Palestine",
+            "Western Mediteranian",
+            "Black Sea"
+        ],
+        "Eastern US": [
+            "Eastern Canada",
+            "Western US",
+            "Eastern USA Atlantic"
+        ],
+        "Eastern USA Atlantic": [
+            "Western US",
+            "Eastern US",
+            "Mexico",
+            "North Central Atlantic",
+            "Canadian Atlantic",
+            "Carribean Sea"
+        ],
+        "Egypt": [
+            "Libya",
+            "Palestine",
+            "French East Africa",
+            "Ethiopia",
+            "Kenya",
+            "Congo",
+            "Eastern Mediteranian",
+            "Red Sea"
+        ],
+        "Ethiopia": [
+            "Egypt",
+            "Kenya",
+            "Red Sea"
+        ],
+        "Evenki": [
+            "Russia",
+            "Yakutsk SSR",
+            "Novosibirsk"
+        ],
+        "French East Africa": [
+            "Algeria",
+            "Libya",
+            "Egypt",
+            "French West Africa",
+            "Congo",
+            "Southern West African Atlantic"
+        ],
+        "French West Africa": [
+            "Algeria",
+            "French East Africa",
+            "West African Atlantic"
+        ],
+        "Germany": [
+            "Western Europe",
+            "Southern Europe",
+            "Eastern Europe",
+            "North Sea",
+            "Baltic Sea"
+        ],
+        "Hawaian Sea": [
+            "Hawaii",
+            "Solomon Island Sea",
+            "Wake Island Sea",
+            "Central Pacific",
+            "Western US Pacific",
+            "Midway Island sea",
+            "Mexican Pacific"
+        ],
+        "Hawaii": [
+            "Hawaian Sea"
+        ],
+        "India": [
+            "Afghanistan",
+            "Sinkiang Western China",
+            "Burma and South East Asia",
+            "Iran",
+            "Indian Ocean"
+        ],
+        "Indian Ocean": [
+            "India",
+            "Iran",
+            "Arabia",
+            "Red Sea",
+            "North Central Indian Ocean",
+            "North East Indian Ocean",
+            "Bay of Bengal",
+            "East Indies Ocean"
+        ],
+        "Iran": [
+            "Caucases",
+            "Kazakstan",
+            "Afghanistan",
+            "India",
+            "Iraq",
+            "Arabia",
+            "Indian Ocean"
+        ],
+        "Iraq": [
+            "Palestine",
+            "Turkey",
+            "Syria",
+            "Arabia",
+            "Iran",
+            "Indian Ocean"
+        ],
+        "Japan": [
+            "Sea of Japan"
+        ],
+        "Karelia": [
+            "Norway Finland",
+            "Russia",
+            "Eastern Europe",
+            "Ukraine",
+            "Caucases",
+            "Baltic Sea",
+            "Karelia Sea"
+        ],
+        "Karelia Sea": [
+            "Karelia",
+            "North Sea"
+        ],
+        "Kazakstan": [
+            "Russia",
+            "Novosibirsk",
+            "Afghanistan",
+            "Sinkiang Western China",
+            "Iran"
+        ],
+        "Kenya": [
+            "Egypt",
+            "Ethiopia",
+            "Congo",
+            "South Africa",
+            "Western Indian Ocean",
+            "Mozambique",
+            "Angola"
+        ],
+        "Kwantung Eastern China": [
+            "Manchuria",
+            "Central China",
+            "Burma and South East Asia",
+            "East China Sea"
+        ],
+        "Libya": [
+            "Algeria",
+            "Egypt",
+            "French East Africa",
+            "Eastern Mediteranian"
+        ],
+        "Madagascar": [
+            "Madagascar Sea"
+        ],
+        "Madagascar Sea": [
+            "South West Indian Ocean",
+            "Western Indian Ocean",
+            "Central Indian Ocean",
+            "Southern Indian Ocean"
+        ],
+        "Manchuria": [
+            "Yakutsk SSR",
+            "Mongolia",
+            "Kwantung Eastern China",
+            "Central China",
+            "Soviet Far East",
+            "Sea of Japan"
+        ],
+        "Mexican Pacific": [
+            "Mexico",
+            "Central America",
+            "Colombia",
+            "Central Pacific",
+            "Western US Pacific",
+            "Hawaian Sea",
+            "South East Pacific"
+        ],
+        "Mexico": [
+            "Western US",
+            "Central America",
+            "Eastern USA Atlantic",
+            "Mexican Pacific"
+        ],
+        "Midway Island": [
+            "Midway Island sea"
+        ],
+        "Midway Island sea": [
+            "Midway Island",
+            "North Central Pacific",
+            "Western US Pacific",
+            "Canadian Pacific",
+            "Alaskan Pacific",
+            "Hawaian Sea"
+        ],
+        "Mongolia": [
+            "Yakutsk SSR",
+            "Novosibirsk",
+            "Manchuria",
+            "Sinkiang Western China",
+            "Central China"
+        ],
+        "Mozambique": [
+            "Kenya",
+            "South Africa",
+            "Western Indian Ocean"
+        ],
+        "New Guinea": [
+            "New Guinea Sea"
+        ],
+        "New Guinea Sea": [
+            "New Guinea",
+            "Borneo Sea",
+            "East Australia Sea",
+            "Solomon Island Sea",
+            "Caroline Islands Sea"
+        ],
+        "New Zealand": [
+            "New Zealand Sea"
+        ],
+        "New Zealand Sea": [
+            "New Zealand",
+            "South Australian Ocean",
+            "East Australia Sea",
+            "Solomon Island Sea",
+            "South Pacific"
+        ],
+        "North Central Atlantic": [
+            "Eastern Atlantic",
+            "West African Atlantic",
+            "Canadian Atlantic",
+            "Carribean Sea",
+            "North Eastern Brazil Atlantic",
+            "Eastern USA Atlantic"
+        ],
+        "North Central Indian Ocean": [
+            "Western Indian Ocean",
+            "Red Sea",
+            "Central Indian Ocean",
+            "Indian Ocean",
+            "North East Indian Ocean"
+        ],
+        "North Central Pacific": [
+            "Wake Island Sea",
+            "Sea of Japan",
+            "Alaskan Pacific",
+            "Midway Island sea"
+        ],
+        "North East Indian Ocean": [
+            "North Central Indian Ocean",
+            "Indian Ocean",
+            "Eastern Indian Ocean",
+            "East Indies Ocean"
+        ],
+        "North Eastern Brazil Atlantic": [
+            "Brazil",
+            "North Central Atlantic",
+            "West African Atlantic",
+            "East Brazil Atlantic",
+            "Carribean Sea"
+        ],
+        "North Sea": [
+            "Germany",
+            "Norway Finland",
+            "Britain",
+            "Western Europe",
+            "Baltic Sea",
+            "Eastern Atlantic",
+            "Canadian Atlantic",
+            "Karelia Sea"
+        ],
+        "North West Pacific": [
+            "Soviet Far East",
+            "Sea of Japan",
+            "Alaskan Pacific"
+        ],
+        "Norway Finland": [
+            "Karelia",
+            "North Sea",
+            "Baltic Sea"
+        ],
+        "Novosibirsk": [
+            "Russia",
+            "Kazakstan",
+            "Yakutsk SSR",
+            "Evenki",
+            "Mongolia",
+            "Sinkiang Western China"
+        ],
+        "Okinawa": [
+            "Okinawa Sea"
+        ],
+        "Okinawa Sea": [
+            "Wake Island Sea",
+            "Caroline Islands Sea",
+            "Philipines Sea",
+            "Sea of Japan",
+            "Okinawa"
+        ],
+        "Palestine": [
+            "Egypt",
+            "Syria",
+            "Iraq",
+            "Arabia",
+            "Eastern Mediteranian",
+            "Red Sea"
+        ],
+        "Peru": [
+            "Colombia",
+            "Brazil",
+            "Chile",
+            "South East Pacific"
+        ],
+        "Philipines": [
+            "Philipines Sea"
+        ],
+        "Philipines Sea": [
+            "Philipines",
+            "Borneo Sea",
+            "Caroline Islands Sea",
+            "Okinawa Sea",
+            "East China Sea",
+            "Sea of Japan"
+        ],
+        "Red Sea": [
+            "Egypt",
+            "Palestine",
+            "Arabia",
+            "Ethiopia",
+            "Western Indian Ocean",
+            "North Central Indian Ocean",
+            "Indian Ocean"
+        ],
+        "Russia": [
+            "Karelia",
+            "Caucases",
+            "Kazakstan",
+            "Evenki",
+            "Novosibirsk"
+        ],
+        "Sea of Japan": [
+            "Manchuria",
+            "Japan",
+            "Wake Island Sea",
+            "Okinawa Sea",
+            "Philipines Sea",
+            "East China Sea",
+            "North Central Pacific",
+            "North West Pacific"
+        ],
+        "Sinkiang Western China": [
+            "Kazakstan",
+            "Novosibirsk",
+            "Mongolia",
+            "Afghanistan",
+            "Central China",
+            "Burma and South East Asia",
+            "India"
+        ],
+        "Solomon Island Sea": [
+            "New Zealand Sea",
+            "Solomon Islands",
+            "East Australia Sea",
+            "New Guinea Sea",
+            "Wake Island Sea",
+            "Caroline Islands Sea",
+            "Central Pacific",
+            "Hawaian Sea"
+        ],
+        "Solomon Islands": [
+            "Solomon Island Sea"
+        ],
+        "South Africa": [
+            "Kenya",
+            "South West African Atlantic",
+            "South West Indian Ocean",
+            "Mozambique",
+            "Angola"
+        ],
+        "South Argentinian Antarctic Ocean": [
+            "Chile",
+            "Argentina",
+            "Antarctic Ocean",
+            "Argentine Atlantic",
+            "South East Pacific"
+        ],
+        "South Australian Ocean": [
+            "New Zealand Sea",
+            "Australia",
+            "Antarctic Ocean southwest of Australia",
+            "Western Australian Ocean",
+            "East Australia Sea"
+        ],
+        "South China Sea": [
+            "Burma and South East Asia",
+            "East Indies Ocean",
+            "Borneo Sea",
+            "East China Sea"
+        ],
+        "South East Pacific": [
+            "Peru",
+            "Chile",
+            "South Argentinian Antarctic Ocean",
+            "Central Pacific",
+            "South Pacific",
+            "Mexican Pacific"
+        ],
+        "South Pacific": [
+            "New Zealand Sea",
+            "Central Pacific",
+            "South East Pacific"
+        ],
+        "South West African Atlantic": [
+            "South Africa",
+            "Central south Atlantic",
+            "Southern West African Atlantic",
+            "Antarctic Ocean",
+            "South West Indian Ocean",
+            "Angola"
+        ],
+        "South West Indian Ocean": [
+            "South Africa",
+            "Madagascar",
+            "South West African Atlantic",
+            "Western Indian Ocean",
+            "Southern Indian Ocean"
+        ],
+        "Southern Europe": [
+            "Germany",
+            "Western Europe",
+            "Eastern Europe",
+            "Turkey",
+            "Western Mediteranian",
+            "Eastern Mediteranian"
+        ],
+        "Southern Indian Ocean": [
+            "Madagascar",
+            "South West Indian Ocean",
+            "Central Indian Ocean",
+            "Antarctic Ocean southwest of Australia"
+        ],
+        "Southern West African Atlantic": [
+            "French East Africa",
+            "Congo",
+            "Central south Atlantic",
+            "South West African Atlantic",
+            "West African Atlantic",
+            "East Brazil Atlantic"
+        ],
+        "Soviet Far East": [
+            "Yakutsk SSR",
+            "Manchuria",
+            "North West Pacific"
+        ],
+        "Spain": [
+            "Western Europe",
+            "Eastern Atlantic",
+            "Western Mediteranian"
+        ],
+        "Syria": [
+            "Palestine",
+            "Turkey",
+            "Iraq",
+            "Eastern Mediteranian"
+        ],
+        "Turkey": [
+            "Southern Europe",
+            "Caucases",
+            "Syria",
+            "Iraq",
+            "Eastern Mediteranian",
+            "Black Sea"
+        ],
+        "Ukraine": [
+            "Karelia",
+            "Eastern Europe",
+            "Caucases",
+            "Black Sea"
+        ],
+        "Venezuela": [
+            "Colombia",
+            "Brazil",
+            "Carribean Sea"
+        ],
+        "Wake Island": [
+            "Wake Island Sea"
+        ],
+        "Wake Island Sea": [
+            "Wake Island",
+            "Solomon Island Sea",
+            "Caroline Islands Sea",
+            "Okinawa Sea",
+            "Sea of Japan",
+            "North Central Pacific",
+            "Hawaian Sea"
+        ],
+        "West African Atlantic": [
+            "French West Africa",
+            "Eastern Atlantic",
+            "North Central Atlantic",
+            "Southern West African Atlantic",
+            "East Brazil Atlantic",
+            "North Eastern Brazil Atlantic"
+        ],
+        "West Indies": [
+            "Carribean Sea"
+        ],
+        "Western Australian Ocean": [
+            "Australia",
+            "South Australian Ocean",
+            "Eastern Indian Ocean",
+            "East Indies Ocean",
+            "Borneo Sea"
+        ],
+        "Western Canada": [
+            "Alaska",
+            "Eastern Canada",
+            "Western US",
+            "Canadian Pacific"
+        ],
+        "Western Europe": [
+            "Germany",
+            "Southern Europe",
+            "Spain",
+            "North Sea",
+            "Eastern Atlantic",
+            "Western Mediteranian"
+        ],
+        "Western Indian Ocean": [
+            "Kenya",
+            "Madagascar",
+            "South West Indian Ocean",
+            "Red Sea",
+            "Central Indian Ocean",
+            "Mozambique",
+            "North Central Indian Ocean"
+        ],
+        "Western Mediteranian": [
+            "Western Europe",
+            "Southern Europe",
+            "Spain",
+            "Algeria",
+            "Eastern Atlantic",
+            "Eastern Mediteranian"
+        ],
+        "Western US": [
+            "Western Canada",
+            "Eastern US",
+            "Mexico",
+            "Western US Pacific",
+            "Eastern USA Atlantic"
+        ],
+        "Western US Pacific": [
+            "Western US",
+            "Canadian Pacific",
+            "Midway Island sea",
+            "Hawaian Sea",
+            "Mexican Pacific"
+        ],
+        "Yakutsk SSR": [
+            "Evenki",
+            "Novosibirsk",
+            "Mongolia",
+            "Manchuria",
+            "Soviet Far East"
+        ]
+    },
+    "placement": {
+        "Alaska": {
+            "infantry": 1
+        },
+        "Algeria": {
+            "armor": 2,
+            "fighter": 1,
+            "infantry": 2
+        },
+        "Angola": {
+            "infantry": 1
+        },
+        "Australia": {
+            "armor": 1,
+            "infantry": 3
+        },
+        "Baltic Sea": {
+            "battleship": 2,
+            "sub": 3,
+            "transport": 1
+        },
+        "Borneo": {
+            "infantry": 2
+        },
+        "Brazil": {
+            "infantry": 3
+        },
+        "Britain": {
+            "AAA": 1,
+            "armor": 5,
+            "bomber": 2,
+            "factory": 1,
+            "fighter": 3,
+            "infantry": 5
+        },
+        "Burma and South East Asia": {
+            "infantry": 1
+        },
+        "Canadian Atlantic": {
+            "transport": 1
+        },
+        "Caroline Islands": {
+            "fighter": 2,
+            "infantry": 2
+        },
+        "Caroline Islands Sea": {
+            "sub": 1
+        },
+        "Caucases": {
+            "armor": 1,
+            "infantry": 3
+        },
+        "Central China": {
+            "infantry": 3
+        },
+        "Central Pacific": {
+            "sub": 1
+        },
+        "East China Sea": {
+            "transport": 1
+        },
+        "East Indies": {
+            "infantry": 2
+        },
+        "East Indies Ocean": {
+            "sub": 1
+        },
+        "Eastern Atlantic": {
+            "battleship": 1,
+            "carrier": 1,
+            "sub": 1
+        },
+        "Eastern Canada": {
+            "bomber": 1,
+            "infantry": 2
+        },
+        "Eastern Europe": {
+            "armor": 4,
+            "fighter": 1,
+            "infantry": 4
+        },
+        "Eastern Mediteranian": {
+            "sub": 1,
+            "transport": 1
+        },
+        "Eastern US": {
+            "AAA": 1,
+            "armor": 2,
+            "bomber": 1,
+            "factory": 1,
+            "fighter": 1,
+            "infantry": 4
+        },
+        "Eastern USA Atlantic": {
+            "battleship": 1,
+            "sub": 1,
+            "transport": 1
+        },
+        "Egypt": {
+            "armor": 2,
+            "infantry": 4
+        },
+        "Ethiopia": {
+            "armor": 1,
+            "infantry": 1
+        },
+        "Evenki": {
+            "infantry": 2
+        },
+        "French East Africa": {
+            "infantry": 1
+        },
+        "French West Africa": {
+            "infantry": 1
+        },
+        "Germany": {
+            "AAA": 1,
+            "armor": 4,
+            "bomber": 1,
+            "factory": 1,
+            "fighter": 1,
+            "infantry": 5
+        },
+        "Hawaian Sea": {
+            "sub": 1
+        },
+        "Hawaii": {
+            "armor": 1,
+            "bomber": 1,
+            "fighter": 1,
+            "infantry": 2
+        },
+        "India": {
+            "armor": 1,
+            "fighter": 1,
+            "infantry": 3
+        },
+        "Indian Ocean": {
+            "battleship": 1,
+            "transport": 1
+        },
+        "Japan": {
+            "AAA": 1,
+            "armor": 4,
+            "bomber": 2,
+            "factory": 1,
+            "fighter": 2,
+            "infantry": 5
+        },
+        "Karelia": {
+            "AAA": 1,
+            "armor": 2,
+            "factory": 1,
+            "fighter": 1,
+            "infantry": 4
+        },
+        "Karelia Sea": {
+            "battleship": 1,
+            "sub": 2,
+            "transport": 1
+        },
+        "Kazakstan": {
+            "infantry": 1
+        },
+        "Kwantung Eastern China": {
+            "AAA": 1,
+            "armor": 3,
+            "fighter": 1,
+            "infantry": 4
+        },
+        "Libya": {
+            "armor": 2,
+            "infantry": 1
+        },
+        "Manchuria": {
+            "armor": 1,
+            "fighter": 1,
+            "infantry": 3
+        },
+        "Mexico": {
+            "infantry": 1
+        },
+        "Midway Island": {
+            "infantry": 1
+        },
+        "Mozambique": {
+            "infantry": 1
+        },
+        "New Guinea": {
+            "infantry": 2
+        },
+        "New Guinea Sea": {
+            "sub": 1
+        },
+        "North Central Atlantic": {
+            "battleship": 1,
+            "carrier": 1,
+            "sub": 1
+        },
+        "North Sea": {
+            "battleship": 2,
+            "carrier": 1,
+            "sub": 1,
+            "transport": 2
+        },
+        "Norway Finland": {
+            "armor": 2,
+            "fighter": 2,
+            "infantry": 2
+        },
+        "Novosibirsk": {
+            "armor": 3,
+            "fighter": 2,
+            "infantry": 2
+        },
+        "Okinawa": {
+            "armor": 2,
+            "fighter": 1,
+            "infantry": 3
+        },
+        "Okinawa Sea": {
+            "battleship": 1
+        },
+        "Philipines": {
+            "armor": 1,
+            "fighter": 1,
+            "infantry": 3
+        },
+        "Philipines Sea": {
+            "battleship": 1,
+            "carrier": 1,
+            "fighter": 2,
+            "sub": 1,
+            "transport": 1
+        },
+        "Russia": {
+            "AAA": 1,
+            "armor": 3,
+            "bomber": 1,
+            "factory": 1,
+            "fighter": 2,
+            "infantry": 5
+        },
+        "Sea of Japan": {
+            "battleship": 1,
+            "carrier": 1,
+            "sub": 1,
+            "transport": 1
+        },
+        "Sinkiang Western China": {
+            "infantry": 3
+        },
+        "Solomon Islands": {
+            "infantry": 1
+        },
+        "South Africa": {
+            "infantry": 3
+        },
+        "South China Sea": {
+            "sub": 1
+        },
+        "Southern Europe": {
+            "AAA": 1,
+            "armor": 2,
+            "factory": 1,
+            "infantry": 3
+        },
+        "Soviet Far East": {
+            "infantry": 1
+        },
+        "Spain": {
+            "infantry": 1
+        },
+        "Turkey": {
+            "armor": 2,
+            "infantry": 2
+        },
+        "Ukraine": {
+            "armor": 3,
+            "fighter": 1,
+            "infantry": 4
+        },
+        "Wake Island": {
+            "infantry": 2
+        },
+        "Western Canada": {
+            "infantry": 1
+        },
+        "Western Europe": {
+            "AAA": 1,
+            "armor": 2,
+            "fighter": 1,
+            "infantry": 3
+        },
+        "Western Mediteranian": {
+            "battleship": 1
+        },
+        "Western US": {
+            "AAA": 1,
+            "armor": 4,
+            "bomber": 1,
+            "factory": 1,
+            "fighter": 1,
+            "infantry": 4
+        },
+        "Western US Pacific": {
+            "battleship": 1,
+            "carrier": 1,
+            "fighter": 1,
+            "sub": 2,
+            "transport": 1
+        },
+        "Yakutsk SSR": {
+            "armor": 1,
+            "infantry": 4
+        }
+    },
+    "players": [
+        "Germany",
+        "USA",
+        "USSR",
+        "UK",
+        "Japan",
+        "Neutral"
+    ],
+    "territories": {
+        "Afghanistan": {
+            "name": "Afghanistan",
+            "owner": "Neutral",
+            "production": "1",
+            "type": "land"
+        },
+        "Alaska": {
+            "name": "Alaska",
+            "owner": "USA",
+            "production": "1",
+            "type": "land"
+        },
+        "Alaskan Pacific": {
+            "name": "Alaskan Pacific",
+            "owner": "USA",
+            "production": "0",
+            "type": "water"
+        },
+        "Algeria": {
+            "name": "Algeria",
+            "owner": "Germany",
+            "production": "1",
+            "type": "land"
+        },
+        "Angola": {
+            "name": "Angola",
+            "owner": "Neutral",
+            "production": "1",
+            "type": "land"
+        },
+        "Antarctic Ocean": {
+            "name": "Antarctic Ocean",
+            "owner": "UK",
+            "production": "0",
+            "type": "water"
+        },
+        "Antarctic Ocean southwest of Australia": {
+            "name": "Antarctic Ocean southwest of Australia",
+            "owner": "UK",
+            "production": "0",
+            "type": "water"
+        },
+        "Arabia": {
+            "name": "Arabia",
+            "owner": "Neutral",
+            "production": "1",
+            "type": "land"
+        },
+        "Argentina": {
+            "name": "Argentina",
+            "owner": "Neutral",
+            "production": "1",
+            "type": "land"
+        },
+        "Argentine Atlantic": {
+            "name": "Argentine Atlantic",
+            "owner": "Germany",
+            "production": "0",
+            "type": "water"
+        },
+        "Australia": {
+            "name": "Australia",
+            "owner": "UK",
+            "production": "2",
+            "type": "land"
+        },
+        "Baltic Sea": {
+            "name": "Baltic Sea",
+            "owner": "Germany",
+            "production": "0",
+            "type": "water"
+        },
+        "Bay of Bengal": {
+            "name": "Bay of Bengal",
+            "owner": "Japan",
+            "production": "0",
+            "type": "water"
+        },
+        "Black Sea": {
+            "name": "Black Sea",
+            "owner": "USSR",
+            "production": "0",
+            "type": "water"
+        },
+        "Borneo": {
+            "name": "Borneo",
+            "owner": "Japan",
+            "production": "2",
+            "type": "land"
+        },
+        "Borneo Sea": {
+            "name": "Borneo Sea",
+            "owner": "Japan",
+            "production": "0",
+            "type": "water"
+        },
+        "Brazil": {
+            "name": "Brazil",
+            "owner": "USA",
+            "production": "3",
+            "type": "land"
+        },
+        "Britain": {
+            "name": "Britain",
+            "owner": "UK",
+            "production": "12",
+            "type": "land"
+        },
+        "Burma and South East Asia": {
+            "name": "Burma and South East Asia",
+            "owner": "Japan",
+            "production": "3",
+            "type": "land"
+        },
+        "Canadian Atlantic": {
+            "name": "Canadian Atlantic",
+            "owner": "UK",
+            "production": "0",
+            "type": "water"
+        },
+        "Canadian Pacific": {
+            "name": "Canadian Pacific",
+            "owner": "USA",
+            "production": "0",
+            "type": "water"
+        },
+        "Caroline Islands": {
+            "name": "Caroline Islands",
+            "owner": "Japan",
+            "production": "1",
+            "type": "land"
+        },
+        "Caroline Islands Sea": {
+            "name": "Caroline Islands Sea",
+            "owner": "Japan",
+            "production": "0",
+            "type": "water"
+        },
+        "Carribean Sea": {
+            "name": "Carribean Sea",
+            "owner": "USA",
+            "production": "0",
+            "type": "water"
+        },
+        "Caucases": {
+            "name": "Caucases",
+            "owner": "USSR",
+            "production": "3",
+            "type": "land"
+        },
+        "Central America": {
+            "name": "Central America",
+            "owner": "USA",
+            "production": "1",
+            "type": "land"
+        },
+        "Central China": {
+            "name": "Central China",
+            "owner": "USA",
+            "production": "2",
+            "type": "land"
+        },
+        "Central Indian Ocean": {
+            "name": "Central Indian Ocean",
+            "owner": "UK",
+            "production": "0",
+            "type": "water"
+        },
+        "Central Pacific": {
+            "name": "Central Pacific",
+            "owner": "Japan",
+            "production": "0",
+            "type": "water"
+        },
+        "Central south Atlantic": {
+            "name": "Central south Atlantic",
+            "owner": "Germany",
+            "production": "0",
+            "type": "water"
+        },
+        "Chile": {
+            "name": "Chile",
+            "owner": "Neutral",
+            "production": "1",
+            "type": "land"
+        },
+        "Colombia": {
+            "name": "Colombia",
+            "owner": "Neutral",
+            "production": "1",
+            "type": "land"
+        },
+        "Congo": {
+            "name": "Congo",
+            "owner": "UK",
+            "production": "1",
+            "type": "land"
+        },
+        "East Australia Sea": {
+            "name": "East Australia Sea",
+            "owner": "UK",
+            "production": "0",
+            "type": "water"
+        },
+        "East Brazil Atlantic": {
+            "name": "East Brazil Atlantic",
+            "owner": "USA",
+            "production": "0",
+            "type": "water"
+        },
+        "East China Sea": {
+            "name": "East China Sea",
+            "owner": "Japan",
+            "production": "0",
+            "type": "water"
+        },
+        "East Indies": {
+            "name": "East Indies",
+            "owner": "Japan",
+            "production": "2",
+            "type": "land"
+        },
+        "East Indies Ocean": {
+            "name": "East Indies Ocean",
+            "owner": "Japan",
+            "production": "0",
+            "type": "water"
+        },
+        "Eastern Atlantic": {
+            "name": "Eastern Atlantic",
+            "owner": "Germany",
+            "production": "0",
+            "type": "water"
+        },
+        "Eastern Canada": {
+            "name": "Eastern Canada",
+            "owner": "UK",
+            "production": "3",
+            "type": "land"
+        },
+        "Eastern Europe": {
+            "name": "Eastern Europe",
+            "owner": "Germany",
+            "production": "3",
+            "type": "land"
+        },
+        "Eastern Indian Ocean": {
+            "name": "Eastern Indian Ocean",
+            "owner": "UK",
+            "production": "0",
+            "type": "water"
+        },
+        "Eastern Mediteranian": {
+            "name": "Eastern Mediteranian",
+            "owner": "Germany",
+            "production": "0",
+            "type": "water"
+        },
+        "Eastern US": {
+            "name": "Eastern US",
+            "owner": "USA",
+            "production": "12",
+            "type": "land"
+        },
+        "Eastern USA Atlantic": {
+            "name": "Eastern USA Atlantic",
+            "owner": "USA",
+            "production": "0",
+            "type": "water"
+        },
+        "Egypt": {
+            "name": "Egypt",
+            "owner": "UK",
+            "production": "2",
+            "type": "land"
+        },
+        "Ethiopia": {
+            "name": "Ethiopia",
+            "owner": "Germany",
+            "production": "1",
+            "type": "land"
+        },
+        "Evenki": {
+            "name": "Evenki",
+            "owner": "USSR",
+            "production": "2",
+            "type": "land"
+        },
+        "French East Africa": {
+            "name": "French East Africa",
+            "owner": "UK",
+            "production": "1",
+            "type": "land"
+        },
+        "French West Africa": {
+            "name": "French West Africa",
+            "owner": "UK",
+            "production": "1",
+            "type": "land"
+        },
+        "Germany": {
+            "name": "Germany",
+            "owner": "Germany",
+            "production": "10",
+            "type": "land"
+        },
+        "Hawaian Sea": {
+            "name": "Hawaian Sea",
+            "owner": "USA",
+            "production": "0",
+            "type": "water"
+        },
+        "Hawaii": {
+            "name": "Hawaii",
+            "owner": "USA",
+            "production": "1",
+            "type": "land"
+        },
+        "India": {
+            "name": "India",
+            "owner": "UK",
+            "production": "3",
+            "type": "land"
+        },
+        "Indian Ocean": {
+            "name": "Indian Ocean",
+            "owner": "UK",
+            "production": "0",
+            "type": "water"
+        },
+        "Iran": {
+            "name": "Iran",
+            "owner": "UK",
+            "production": "1",
+            "type": "land"
+        },
+        "Iraq": {
+            "name": "Iraq",
+            "owner": "Neutral",
+            "production": "2",
+            "type": "land"
+        },
+        "Japan": {
+            "name": "Japan",
+            "owner": "Japan",
+            "production": "8",
+            "type": "land"
+        },
+        "Karelia": {
+            "name": "Karelia",
+            "owner": "USSR",
+            "production": "3",
+            "type": "land"
+        },
+        "Karelia Sea": {
+            "name": "Karelia Sea",
+            "owner": "USSR",
+            "production": "0",
+            "type": "water"
+        },
+        "Kazakstan": {
+            "name": "Kazakstan",
+            "owner": "USSR",
+            "production": "1",
+            "type": "land"
+        },
+        "Kenya": {
+            "name": "Kenya",
+            "owner": "UK",
+            "production": "1",
+            "type": "land"
+        },
+        "Kwantung Eastern China": {
+            "name": "Kwantung Eastern China",
+            "owner": "Japan",
+            "production": "3",
+            "type": "land"
+        },
+        "Libya": {
+            "name": "Libya",
+            "owner": "Germany",
+            "production": "1",
+            "type": "land"
+        },
+        "Madagascar": {
+            "name": "Madagascar",
+            "owner": "UK",
+            "production": "1",
+            "type": "land"
+        },
+        "Madagascar Sea": {
+            "name": "Madagascar Sea",
+            "owner": "Neutral",
+            "production": "0",
+            "type": "water"
+        },
+        "Manchuria": {
+            "name": "Manchuria",
+            "owner": "Japan",
+            "production": "3",
+            "type": "land"
+        },
+        "Mexican Pacific": {
+            "name": "Mexican Pacific",
+            "owner": "USA",
+            "production": "0",
+            "type": "water"
+        },
+        "Mexico": {
+            "name": "Mexico",
+            "owner": "USA",
+            "production": "2",
+            "type": "land"
+        },
+        "Midway Island": {
+            "name": "Midway Island",
+            "owner": "USA",
+            "production": "1",
+            "type": "land"
+        },
+        "Midway Island sea": {
+            "name": "Midway Island sea",
+            "owner": "USA",
+            "production": "0",
+            "type": "water"
+        },
+        "Mongolia": {
+            "name": "Mongolia",
+            "owner": "Neutral",
+            "production": "1",
+            "type": "land"
+        },
+        "Mozambique": {
+            "name": "Mozambique",
+            "owner": "Neutral",
+            "production": "1",
+            "type": "land"
+        },
+        "New Guinea": {
+            "name": "New Guinea",
+            "owner": "Japan",
+            "production": "1",
+            "type": "land"
+        },
+        "New Guinea Sea": {
+            "name": "New Guinea Sea",
+            "owner": "Japan",
+            "production": "0",
+            "type": "water"
+        },
+        "New Zealand": {
+            "name": "New Zealand",
+            "owner": "UK",
+            "production": "1",
+            "type": "land"
+        },
+        "New Zealand Sea": {
+            "name": "New Zealand Sea",
+            "owner": "UK",
+            "production": "0",
+            "type": "water"
+        },
+        "North Central Atlantic": {
+            "name": "North Central Atlantic",
+            "owner": "Germany",
+            "production": "0",
+            "type": "water"
+        },
+        "North Central Indian Ocean": {
+            "name": "North Central Indian Ocean",
+            "owner": "UK",
+            "production": "0",
+            "type": "water"
+        },
+        "North Central Pacific": {
+            "name": "North Central Pacific",
+            "owner": "USA",
+            "production": "0",
+            "type": "water"
+        },
+        "North East Indian Ocean": {
+            "name": "North East Indian Ocean",
+            "owner": "UK",
+            "production": "0",
+            "type": "water"
+        },
+        "North Eastern Brazil Atlantic": {
+            "name": "North Eastern Brazil Atlantic",
+            "owner": "USA",
+            "production": "0",
+            "type": "water"
+        },
+        "North Sea": {
+            "name": "North Sea",
+            "owner": "UK",
+            "production": "0",
+            "type": "water"
+        },
+        "North West Pacific": {
+            "name": "North West Pacific",
+            "owner": "Japan",
+            "production": "0",
+            "type": "water"
+        },
+        "Norway Finland": {
+            "name": "Norway Finland",
+            "owner": "Germany",
+            "production": "3",
+            "type": "land"
+        },
+        "Novosibirsk": {
+            "name": "Novosibirsk",
+            "owner": "USSR",
+            "production": "2",
+            "type": "land"
+        },
+        "Okinawa": {
+            "name": "Okinawa",
+            "owner": "Japan",
+            "production": "2",
+            "type": "land"
+        },
+        "Okinawa Sea": {
+            "name": "Okinawa Sea",
+            "owner": "Japan",
+            "production": "0",
+            "type": "water"
+        },
+        "Palestine": {
+            "name": "Palestine",
+            "owner": "UK",
+            "production": "1",
+            "type": "land"
+        },
+        "Peru": {
+            "name": "Peru",
+            "owner": "Neutral",
+            "production": "1",
+            "type": "land"
+        },
+        "Philipines": {
+            "name": "Philipines",
+            "owner": "Japan",
+            "production": "2",
+            "type": "land"
+        },
+        "Philipines Sea": {
+            "name": "Philipines Sea",
+            "owner": "Japan",
+            "production": "0",
+            "type": "water"
+        },
+        "Red Sea": {
+            "name": "Red Sea",
+            "owner": "UK",
+            "production": "0",
+            "type": "water"
+        },
+        "Russia": {
+            "name": "Russia",
+            "owner": "USSR",
+            "production": "8",
+            "type": "land"
+        },
+        "Sea of Japan": {
+            "name": "Sea of Japan",
+            "owner": "Japan",
+            "production": "0",
+            "type": "water"
+        },
+        "Sinkiang Western China": {
+            "name": "Sinkiang Western China",
+            "owner": "USA",
+            "production": "2",
+            "type": "land"
+        },
+        "Solomon Island Sea": {
+            "name": "Solomon Island Sea",
+            "owner": "Japan",
+            "production": "0",
+            "type": "water"
+        },
+        "Solomon Islands": {
+            "name": "Solomon Islands",
+            "owner": "Japan",
+            "production": "1",
+            "type": "land"
+        },
+        "South Africa": {
+            "name": "South Africa",
+            "owner": "UK",
+            "production": "2",
+            "type": "land"
+        },
+        "South Argentinian Antarctic Ocean": {
+            "name": "South Argentinian Antarctic Ocean",
+            "owner": "Germany",
+            "production": "0",
+            "type": "water"
+        },
+        "South Australian Ocean": {
+            "name": "South Australian Ocean",
+            "owner": "UK",
+            "production": "0",
+            "type": "water"
+        },
+        "South China Sea": {
+            "name": "South China Sea",
+            "owner": "Japan",
+            "production": "0",
+            "type": "water"
+        },
+        "South East Pacific": {
+            "name": "South East Pacific",
+            "owner": "USA",
+            "production": "0",
+            "type": "water"
+        },
+        "South Pacific": {
+            "name": "South Pacific",
+            "owner": "USA",
+            "production": "0",
+            "type": "water"
+        },
+        "South West African Atlantic": {
+            "name": "South West African Atlantic",
+            "owner": "Germany",
+            "production": "0",
+            "type": "water"
+        },
+        "South West Indian Ocean": {
+            "name": "South West Indian Ocean",
+            "owner": "UK",
+            "production": "0",
+            "type": "water"
+        },
+        "Southern Europe": {
+            "name": "Southern Europe",
+            "owner": "Germany",
+            "production": "8",
+            "type": "land"
+        },
+        "Southern Indian Ocean": {
+            "name": "Southern Indian Ocean",
+            "owner": "UK",
+            "production": "0",
+            "type": "water"
+        },
+        "Southern West African Atlantic": {
+            "name": "Southern West African Atlantic",
+            "owner": "UK",
+            "production": "0",
+            "type": "water"
+        },
+        "Soviet Far East": {
+            "name": "Soviet Far East",
+            "owner": "USSR",
+            "production": "2",
+            "type": "land"
+        },
+        "Spain": {
+            "name": "Spain",
+            "owner": "Germany",
+            "production": "1",
+            "type": "land"
+        },
+        "Syria": {
+            "name": "Syria",
+            "owner": "Neutral",
+            "production": "1",
+            "type": "land"
+        },
+        "Turkey": {
+            "name": "Turkey",
+            "owner": "Neutral",
+            "production": "4",
+            "type": "land"
+        },
+        "Ukraine": {
+            "name": "Ukraine",
+            "owner": "Germany",
+            "production": "3",
+            "type": "land"
+        },
+        "Venezuela": {
+            "name": "Venezuela",
+            "owner": "Neutral",
+            "production": "1",
+            "type": "land"
+        },
+        "Wake Island": {
+            "name": "Wake Island",
+            "owner": "Japan",
+            "production": "1",
+            "type": "land"
+        },
+        "Wake Island Sea": {
+            "name": "Wake Island Sea",
+            "owner": "Japan",
+            "production": "0",
+            "type": "water"
+        },
+        "West African Atlantic": {
+            "name": "West African Atlantic",
+            "owner": "UK",
+            "production": "0",
+            "type": "water"
+        },
+        "West Indies": {
+            "name": "West Indies",
+            "owner": "USA",
+            "production": "1",
+            "type": "land"
+        },
+        "Western Australian Ocean": {
+            "name": "Western Australian Ocean",
+            "owner": "UK",
+            "production": "0",
+            "type": "water"
+        },
+        "Western Canada": {
+            "name": "Western Canada",
+            "owner": "UK",
+            "production": "1",
+            "type": "land"
+        },
+        "Western Europe": {
+            "name": "Western Europe",
+            "owner": "Germany",
+            "production": "8",
+            "type": "land"
+        },
+        "Western Indian Ocean": {
+            "name": "Western Indian Ocean",
+            "owner": "UK",
+            "production": "0",
+            "type": "water"
+        },
+        "Western Mediteranian": {
+            "name": "Western Mediteranian",
+            "owner": "UK",
+            "production": "0",
+            "type": "water"
+        },
+        "Western US": {
+            "name": "Western US",
+            "owner": "USA",
+            "production": "10",
+            "type": "land"
+        },
+        "Western US Pacific": {
+            "name": "Western US Pacific",
+            "owner": "USA",
+            "production": "0",
+            "type": "water"
+        },
+        "Yakutsk SSR": {
+            "name": "Yakutsk SSR",
+            "owner": "USSR",
+            "production": "2",
+            "type": "land"
+        }
+    },
+    "turn": 1,
+    "units": {
+        "AAA": {
+            "attack": 0,
+            "cost": 5,
+            "defend": 1,
+            "land": 1,
+            "movement": 0
+        },
+        "armor": {
+            "attack": 3,
+            "cost": 5,
+            "defend": 2,
+            "land": 1,
+            "movement": 2
+        },
+        "battleship": {
+            "attack": 4,
+            "cost": 24,
+            "defend": 4,
+            "movement": 2,
+            "water": 1
+        },
+        "bomber": {
+            "air": 1,
+            "attack": 4,
+            "cost": 16,
+            "defend": 2,
+            "movement": 6
+        },
+        "carrier": {
+            "attack": 0,
+            "cost": 24,
+            "defend": 1,
+            "movement": 2,
+            "water": 1
+        },
+        "factory": {
+            "attack": 0,
+            "cost": 32,
+            "defend": 0,
+            "land": 1,
+            "movement": 0
+        },
+        "fighter": {
+            "air": 1,
+            "attack": 3,
+            "cost": 12,
+            "defend": 4,
+            "movement": 4
+        },
+        "infantry": {
+            "attack": 1,
+            "cost": 3,
+            "defend": 2,
+            "land": 1,
+            "movement": 1
+        },
+        "sub": {
+            "attack": 2,
+            "cost": 8,
+            "defend": 2,
+            "movement": 2,
+            "water": 1
+        },
+        "transport": {
+            "attack": 0,
+            "cost": 10,
+            "defend": 1,
+            "movement": 2,
+            "water": 1
+        }
+    }
+}
