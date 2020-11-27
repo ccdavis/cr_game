@@ -18,3 +18,6 @@ game_state = CrGame.load("./boards/game_setup.json")
 
 players = game_state.make_players
 game_map = game_state.make_map(players)
+
+unit_templates = game_state.make_unit_templates
+

@@ -3,14 +3,14 @@ require "./piece"
 
 enum TerrainType
     Land
-    Sea
+    Water
     Unknown
 end
 
 class Location
     property(        
         owner : Player,
-        pieces : Array(Piece)  = [] of Piece
+        pieces : Array(PieceGroup)  = [] of PieceGroup
     )
     
     getter name : String
@@ -33,6 +33,8 @@ class Location
     def add_adjacent(adj : Array(Location))
         @next_to += adj
     end
+    
+    
     
     
 end

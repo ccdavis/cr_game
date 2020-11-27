@@ -2,12 +2,13 @@ require "./player"
 
 enum PieceType
     Infantry
-    Tank
+    Armor
     AAA
     Factory
     Transport
     Submarine
     Battleship
+    Carrier
     Fighter
     Bomber
 end
@@ -19,6 +20,7 @@ end
 # or similar.)
 struct PieceTemplate
     property(
+        terrain_type : TerrainType,
         piece_type : PieceType,
         cost : Int32,
          movement : Int32,
@@ -26,12 +28,12 @@ struct PieceTemplate
          defend : Int32
     )
     
-    def    initialize(@piece_type, @cost, @movement, @attack, @defend)
+    def    initialize(@piece_type, @terrain_type, @cost, @movement, @attack, @defend)
     end
        
 end
 
-class Piece
+class PieceGroup
     property(
         unit : PieceTemplate,
         count : Int32,
