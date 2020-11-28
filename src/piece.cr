@@ -6,7 +6,7 @@ enum PieceType
     AAA
     Factory
     Transport
-    Submarine
+    Sub
     Battleship
     Carrier
     Fighter

@@ -37,34 +37,19 @@ class GameState
     def make_unit_templates() : Hash(PieceType, PieceTemplate)
         templates = {} of PieceType => PieceTemplate
         units.map do |name, stats|            
-            unit = 
-                case  name
-                when "AAA"
-                    PieceType::AAA
-                when "armor"
-                    PieceType::Armor
-                when "infantry"
-                    PieceType::Infantry
-                when "factory"
-                    PieceType::Factory
-                when "transport"
-                    PieceType::Transport
-                when "battleship"
-                    PieceType::Battleship
-                when "carrier"
-                    PieceType::Carrier
-                when "sub"
-                    PieceType::Submarine
-                when "bomber"            
-                    PieceType::Bomber
-                when "fighter"
-                    PieceType::Fighter                
-            else
-                raise "Unknown piece type #{name}"
+            unit =  PieceType.parse(name.capitalize)                
+          
+          # A piece can be a land type, water type or air
+            terrain =    if stats.has_key?("land")
+                TerrainType::Land
+            elsif stats.has_key?("water")
+                TerrainType::Water
+            elsif stats.has_key?("air")
+                TerrainType::Air
+            else            
+                TerrainType::Unknown            
             end
-            
-            terrain = stats["land"] == 1  ? TerrainType::Land : TerrainType::Water
-            
+                                             
             templates[unit] =PieceTemplate.new(
                 piece_type = unit,
                 terrain_type = terrain,
@@ -77,14 +62,7 @@ class GameState
     end
         
     def make_terrain(terrain_name) : TerrainType
-        case  terrain_name
-                when "land"
-                    TerrainType::Land
-                when "water"
-                    TerrainType::Water
-                else
-                    raise "Unknown terrain type #{terrain_name}"
-                end
+        TerrainType.parse(terrain_name.capitalize)        
     end
     
     def make_map(players : Array(Player)) : Hash(String,Location)

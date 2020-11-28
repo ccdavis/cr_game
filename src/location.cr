@@ -4,6 +4,7 @@ require "./piece"
 enum TerrainType
     Land
     Water
+    Air
     Unknown
 end
 
