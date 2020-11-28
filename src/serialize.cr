@@ -2,9 +2,9 @@ require "json"
 require "./player"
 require "./location"
    
-# This is the state after parsing from JSON.
+# The properties get populated with the values from the serialized JSON.
 # We will translate this data into good types
-# for actual game play.
+# for actual game play with the other methods in this class.
 class GameState
     include JSON::Serializable
     
@@ -92,6 +92,35 @@ class GameState
         locations
     end
         
+    def  place_pieces(
+        game_map : Hash(String, Location), 
+        unit_templates : Hash(PieceType, PieceTemplate)) : Hash(String, Location)
+            
+            placement.each  do |name, pieces|
+                location = game_map[name]
+                # Each key-value represents a PieceGroup
+                piece_groups = pieces.keys.map do |piece_name|
+                    piece_type = PieceType.parse(piece_name)
+                    PieceGroup.new(
+                        unit = unit_templates[piece_type],
+                        owner = location.owner,                        
+                        count = pieces[piece_name])                                                                                         
+                end # every piece type                                               
+                location.pieces = piece_groups
+            end  # every location on the map            
+            game_map           
+        end           
+       
+       # Set up a new game
+        def new_board               
+            players = make_players
+            game_map = make_map(players)
+            unit_templates = make_unit_templates
+            map_with_pieces = place_pieces(game_map, unit_templates)        
+        
+            Board.new(players,turn,map_with_pieces, unit_templates)                
+        end
+       
 end
 
 

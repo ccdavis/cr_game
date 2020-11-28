@@ -1,6 +1,7 @@
 # TODO: Write documentation for `CrGame`
 
 require "./serialize.cr"
+require "./board.cr"
 
 module CrGame
   VERSION = "0.1.0"
@@ -12,12 +13,9 @@ module CrGame
         puts "Game-state initialized..."
         game
     end      
+    
 end
 
 game_state = CrGame.load("./boards/game_setup.json")   
-
-players = game_state.make_players
-game_map = game_state.make_map(players)
-
-unit_templates = game_state.make_unit_templates
+board = game_state.new_board
 
